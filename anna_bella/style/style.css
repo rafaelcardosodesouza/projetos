@@ -1,21 +1,40 @@
 body{
-    background-image: url(../imgs/fundo.png);
-    width: 780px;
+    background: #d2d2c1 url('/projetos/anna_bella/imgs/fundo.png');
+    width: 900px;
+    font-family: 16px Arial, Helvetica, sans-serif
 }
-#id{
-    font-family: Arial, Helvetica, sans-serif
+#menu{
+    background: #c5c5b2;
+    padding: 17px;
 }
+a:hover{
+    background: #d3d3bf;
+}
+
 .p1{
-    padding: 13px;
+    
+}
+h1{
+    color: #828271;
+    font-size: 1.2em;
+
+}
+#capa{
+
+}
+.conteudo{
+    background-color: #e8e8d9;
+    padding: 3px;
     padding-left: 1em;
     padding-right: 2em;
 }
-h1{
+
+a{
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: bold;
+    padding: 5px;
+}
+h4{
     text-align: center;
-}
-#capa{
-    width: 780px;
-}
-.corpo{
-    background-color: rgb(238, 238, 231);
 }
