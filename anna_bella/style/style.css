@@ -1,23 +1,23 @@
 body{
     background: #d2d2c1 url('/projetos/anna_bella/imgs/fundo.png') ;
-    width: 925px;
-    font-family: 16px Arial, Helvetica, sans-serif
+    width: 900px;
+    font-family: 16px Arial, Helvetica, sans-serif;
+
 }
 #menu{
     background: #c5c5b2;
-    padding: 17px;
+    padding: 16px;
     text-align: center;
 }
 a:hover{
     background: #d3d3bf;
-}
 
-.p1{
-    
 }
+  
 h1{
     color: #828271;
     font-size: 1.2em;
+
 
 }
 .conteudo{
@@ -25,6 +25,7 @@ h1{
     padding: 3px;
     padding-left: 1em;
     padding-right: 2em;
+
 }
 
 a{
@@ -37,8 +38,6 @@ h4{
     text-align: center;
 }
 img{
-    display: block;
-    margin: 0px auto;
-    padding: 13px;
-    background-color: #828271;
+    border: 10px solid #c3c3ae;
+
 }
