@@ -1,31 +1,65 @@
+/*config global*/
 *{
     margin: 0px;
     padding: 0px;
 }
+
 #body{
     background-color: #e6e6e6;
     font-family: "trebuvhet MS", Helvetica, sans-serif;
     font-size: 1em;
 }
 
-/*layout-menu*/
+#area-principal{
+    background-color: #fff;
+    width: 920px;
+    margin: 0 auto;
+}
+
+
+#area-lateral{
+    width: 240px;
+    float: right;
+
+}
+.rodape{
+    clear: both;
+    text-align: center;
+    background: #ccc;
+    padding: 15px;
+}
+#area-lateral, #area-principal{
+    padding: 15px;
+}
 a{
     text-decoration: none;
-    padding: 10px;
+    
 }
-a:link, a:visited {
+
+/*layout-menu*/
+#area-cabecalho a:link, #area-menu a:visited{
     color: #FFF;
+    padding: 8px 12px;
 }
-a:hover {
+#area-cabecalho a:hover{
     background-color: #fff;
     color: #f7b600;
     border-radius: 20px;
 }
+#a-menu{
+    text-decoration: none;
+    padding: 10px;
+}
+
+
 .branco{
     color: #FFF;
 }
+#area-menu{
+    padding: 15px;
+}
 
-/*layout*/
+/*configuração gerais*/
 #area-cabecalho{
     text-align: center;
     font-size: 1.2em;
@@ -35,6 +69,32 @@ a:hover {
 #area-logo{
     padding: 15px;
 }
-#area-menu{
-    padding: 15px;
+.readme {
+color: red;
+}
+img{
+    width: 600px;
+}
+#area-postagem{
+    width: 660px;
+    float: left;
+
+}
+.post{
+    border: 1px solid red;
+    margin: 10px;
+}
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h2{
+    color: #f7b600;
+}
+.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
 }
