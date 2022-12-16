@@ -2,18 +2,39 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+#body{
     background-color: #e6e6e6;
     font-family: "trebuvhet MS", Helvetica, sans-serif;
     font-size: 1em;
 }
+
+/*layout-menu*/
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+a:link, a:visited {
+    color: #FFF;
+}
+a:hover {
+    background-color: #fff;
+    color: #f7b600;
+    border-radius: 20px;
+}
+.branco{
+    color: #FFF;
+}
+
 /*layout*/
-.area-cabecalho{
-
+#area-cabecalho{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+    background-color: #f7b600;
 }
-.area-logo{
-
+#area-logo{
+    padding: 15px;
 }
-.area-menu{
-
+#area-menu{
+    padding: 15px;
 }
